@@ -1,19 +1,9 @@
 #2
-from math import*
-from random import*
-a=''
-i=0
-while a !=0:
-    a = int(input("Sisestage number:" ))
-    if a< 0:
-       i += 1
-print("Negatiivsete arvude arv:" + str(i))
-
-#1
-a, b = map(float, input().split())             	
-if a > b:           	
-    M = a     
-else:                  	
-    M = b           	
-print("Maximum", M) 
+P = [3, -4, -1, 1, -2, 5, 4, 5, -5, -3, -4, 10, -10, 1, -2] 
+sum1 = sum2 = 0 
+if P > 0: 
+    sum1 += P 
+else: 
+    sum2 += P
     
+ #поясниние: не смог сделать другие задания из своего номера так как что написать эти коды надо знать как сделать цыкличность. 
